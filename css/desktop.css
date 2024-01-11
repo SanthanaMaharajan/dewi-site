@@ -1,0 +1,241 @@
+@media(min-width:1200px){
+	
+	
+	/* Header section */
+	.nav-bar{
+		display:block;
+	}
+	.nav-bar-btn{
+		display:none;
+	}
+	.nav-links{
+		padding:20px;
+	}
+	/* Banner-section */
+	#bg-img{
+		width:100%;
+		background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/hero-bg.jpg);
+		background-position:top center;
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+	#banner-sec{
+		height:100vh;
+	}
+	.banner-txt h1{
+		font-size:50px;
+	}
+	.banner-txt h2{
+		font-size:28px;
+	}
+	.banner-txt h1, .banner-txt h2{
+		text-align:center;
+		color:#ffff;
+		padding:5px;
+	}
+	.banner-btn{
+		padding:2rem 0;
+	}
+	.banner-btn a{
+		text-decoration:none;
+		color:#ffff;
+		border-radius:5px;
+		padding:10px;
+		text-align:center;
+		font-size:15px;
+	}
+	.banner-container{
+		width:100%;
+		margin:auto;
+		height:100vh;
+	}
+	#btn-1{
+		background-color:#ff4a17;
+		padding:10px 2rem;
+		border:1px solid #ff4a17;
+	}
+	#btn-2{
+		padding:10px 0;
+		font-size:1.2rem;
+	}
+	#btn-2 i{
+		font-size:2rem;
+		padding:0 10px;
+	}
+	
+	.container{
+		width:80%;
+		margin:auto;
+	}
+	/* About section */
+	.awards{
+		width:25%;
+		height:30vh;
+	}
+	.awards i{
+		font-size:3rem;
+	}
+	.awards h1{
+		font-size: 2rem;
+	}
+	.awards p{
+		font-size:16px;
+	}
+	.abt-vid, .abt-cnt{
+		width:50%;
+		padding:0 10px;
+	}
+	.abt-vid img{
+		width:100%;
+		/* height:75vh; */
+	}
+	.abt-vid-anim:before{
+		width: 65px;
+		height: 65px;
+		top: -4%;
+		left:-9%;
+	}
+	.abt-cnt li{
+		padding:10px 0;
+	}
+	.abt-vid i{
+		font-size:18px;
+	}
+	.abt-vid-btn{
+		top:40%;
+		left:43%;
+		padding:10px;
+	}
+	.abt-vid-anim{
+		padding:15px;
+	}
+	
+	
+	/* About-card-section */
+	.abt-box1, .abt-box2, .abt-box3{
+		width:33.33%;
+	}
+	
+	
+	/* About-client section */
+	.client-card{
+		width:16.66%;
+	}
+	
+	
+	/* About-small-card-section */
+	.small-card{
+		width:25%;
+		padding:10px;
+	}
+	
+	
+	/* Services-section */
+	.service-head h4::after{
+		width: 120px;
+	}
+	.service-head p{
+		font-size:36px;
+	}
+	.service-head h4{
+		color:#aaa;
+		font-size:18px;
+	}
+	.service-col{
+		width:50%;
+	}
+	.service-icon{
+		font-size:35px;
+		padding:25px 20px;
+		color:rgb(113,151,181);
+	}
+	.service-cnt h3{
+		font-size:20px;
+	}
+	.service-cnt p{
+		font-size:15px;
+	}
+	
+	/* Portfolio-section*/
+	.port-col{
+		width:33.33%;
+	}
+	.portfolio-head h4::after{
+		width: 120px;
+	}
+	.portfolio-head p{
+		font-size:36px;
+	}
+	.portfolio-head h4{
+		color:#aaa;
+		font-size:24px;
+	}
+	
+	
+	/* Team section */
+	.team-col{
+		width:33.33%;
+		padding:20px 10px;
+	}
+	.team-head h4::after{
+		width: 120px;
+	}
+	.team-head p{
+		font-size:36px;
+	}
+	.team-head h4{
+		color:#aaa;
+		font-size:24px;
+	}
+	.team-card h3{
+		font-size:22px;
+	}
+	.team-card p{
+		font-size:14px;
+	}
+	.team-social-icons i{
+		font-size:15px;
+	}
+	
+	/* Contact section */
+	.contact-head h4::after{
+		width: 120px;
+	}
+	.contact-head p{
+		font-size:36px;
+	}
+	.contact-head h4{
+		color:#aaa;
+		font-size:24px;
+	}
+	.contact-col1, .contact-col2{
+		width:50%;
+		padding:10px;
+	}
+	.contact-email, .contact-num{
+		width:48%;
+		padding:10px;
+	}
+	.msg-btn{
+		width:45%;
+	}
+	.msg-btn button{
+		font-size:16px;
+	}
+	.contact-form input, .contact-form textarea{
+		font-size:16px;
+	}
+	
+	
+	/* Footer section */
+	
+	.footer-col1, .footer-col4{
+	width:30%;
+	padding:10px;
+	}
+	.footer-col2, .footer-col3{
+	width:20%;
+	padding:10px;
+	}
+	
+}	

@@ -1,0 +1,311 @@
+@media (min-width:600px){
+	
+	/* Header section */
+	.nav-bar{
+		display:none;
+	}
+	.nav-bar-btn{
+		display:block;
+		z-index:9999;
+	}
+	.head-col1{
+		padding:15px;
+	}
+		.nav-bar{
+		display:none;
+	}
+	.nav-bar-btn{
+		display:block;
+		position:relative;
+	}
+	.head-col1{
+		padding:10px;
+	}
+	.mobile-navbar{
+		background-color:#fff;
+		width:90%;
+		height:90vh;
+		padding:20px;
+		box-shadow:0 0 70px 50px #000;
+		border-radius:10px;
+		overflow:scroll;
+		position:absolute;
+		top:100%;
+		right:5%;
+		display:none;
+	}
+	.nav-bar-btn:hover + .mobile-navbar{
+		display:block;
+	}
+	.mobile-nav-bar-links::after{
+		content:"";
+		height:2px;
+		width:100%;
+		display:block;
+		background-color:#ff4a17;
+		transform:scale(0);
+		transition:all 0.7s ease;
+		transform-origin:left;
+	}
+	.mobile-navbar li:hover .mobile-nav-bar-links::after{
+		transform:scale(1);
+	}
+	.mobile-dropdown-menu{
+		display:none;
+	}
+	.mobile-dropdown:hover .mobile-dropdown-menu{
+		display:block;
+	}
+	.mobile-deepdropdown-menu{
+		display:none;
+	}
+	.mobile-deepdropdown:hover .mobile-deepdropdown-menu{
+		display:block;
+	}
+	.mobile-nav-btn{
+		padding:8px 20px;
+		background-color:#ff4a17;
+		border:2px solid #ff4a17;
+		border-radius:5px;
+	}
+	.mobile-nav-bar-list li{
+		list-style-type:none;
+		padding:15px;
+	}
+	.mobile-nav-bar-list li a{
+		text-decoration:none;
+		color:#000;
+		font-size:15px;
+		font-weight:600;
+	}
+	
+	
+	
+	/* Banner-section */
+	#bg-img{
+		width:100%;
+		background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/hero-bg.jpg);
+		background-position:bottom center;
+		background-size:cover;
+		background-repeat:no-repeat;
+	}
+	#banner-sec{
+		height:100vh;
+	}
+	.banner-txt h1{
+		font-size:32px;
+	}
+	.banner-txt h2{
+		font-size:20px;
+	}
+	.banner-txt h1, .banner-txt h2{
+		text-align:center;
+		color:#ffff;
+		padding:5px;
+	}
+	.banner-btn{
+		padding:1.5rem 0;
+	}
+	.banner-btn a{
+		text-decoration:none;
+		color:#ffff;
+		border-radius:5px;
+		padding:10px;
+		text-align:center;
+		font-size:14px;
+	}
+	.banner-container{
+		width:100%;
+		margin:auto;
+		height:100vh;
+	}
+	#btn-1{
+		background-color:#ff4a17;
+		padding:8px 1.5rem;
+		border:1px solid #ff4a17;
+	}
+	#btn-2{
+		padding:10px 0;
+		font-size:1rem;
+	}
+	#btn-2 i{
+		font-size:1.5rem;
+		padding:0 10px;
+	}
+	
+	.container{
+		width:90%;
+		margin:auto;
+	}
+	/* About section */
+	.awards{
+		width:50%;
+		height:15vh;
+	}
+	.awards i{
+		font-size:3.5rem;
+	}
+	.awards h1{
+		font-size: 2rem;
+	}
+	.awards p{
+		font-size:15px;
+	}
+	.abt-vid, .abt-cnt{
+		width:100%;
+		padding:0 20px;
+	}
+	.abt-vid img{
+		width:100%;
+	}
+	.abt-vid-anim:before{
+		width: 60px;
+		height: 60px;
+		top: -3%;
+		left:-9%;
+	}
+	.abt-vid i{
+		font-size:16px;
+	}
+	.abt-vid-btn{
+		top:40%;
+		left:45%;
+		padding:8px;
+	}
+	.abt-vid-anim{
+		padding:16px;
+	}
+	
+	
+	/* About-card-section */
+	.abt-box1, .abt-box2, .abt-box3{
+		width:60%;
+		margin:auto;
+	}
+	
+	
+	/* About-client section */
+	.client-card{
+		width:33.33%;
+	}
+	
+	
+	/* About-small-card-section */
+	.small-card{
+		width:50%;
+		padding:15px;
+	}
+	
+	
+	/* Services-section */
+	.service-head h4::after{
+		width: 70px;
+	}
+	.service-head p{
+		font-size:24px;
+	}
+	.service-head h4{
+		color:#aaa;
+		font-size:14px;
+	}
+	.service-col{
+		width:100%;
+	}
+	.service-icon{
+		font-size:35px;
+		padding:25px 20px;
+		color:rgb(113,151,181);
+	}
+	.service-cnt h3{
+		font-size:20px;
+	}
+	.service-cnt p{
+		font-size:15px;
+	}
+	
+	/* Portfolio-section*/
+	.port-col{
+		width:70%;
+		margin:auto;
+	}
+	.portfolio-head h4::after{
+		width: 70px;
+	}
+	.portfolio-head p{
+		font-size:24px;
+	}
+	.portfolio-head h4{
+		color:#aaa;
+		font-size:14px;
+	}
+	
+	
+	/* Team section */
+	.team-col{
+		width:70%;
+		margin:auto;
+		padding:40px 10px;
+	}
+	.team-head h4::after{
+		width: 70px;
+	}
+	.team-head p{
+		font-size:24px;
+	}
+	.team-head h4{
+		color:#aaa;
+		font-size:14px;
+	}
+	.team-card h3{
+		font-size:28px;
+	}
+	.team-card p{
+		font-size:16px;
+	}
+	.team-social-icons i{
+		font-size:20px;
+	}
+	
+	/* Contact section */
+	.contact-head h4::after{
+		width: 70px;
+	}
+	.contact-head p{
+		font-size:24px;
+	}
+	.contact-head h4{
+		color:#aaa;
+		font-size:14px;
+	}
+	.contact-col1, .contact-col2{
+		width:100%;
+		padding:10px;
+	}
+	.contact-email, .contact-num{
+		width:48%;
+		padding:10px;
+	}
+	.msg-btn{
+		width:30%;
+		margin:auto;
+	}
+	.msg-btn button{
+		font-size:14px;
+	}
+	.contact-form input, .contact-form textarea{
+		font-size:12px;
+	}
+	
+	
+	/* Footer section */
+	
+	.footer-col1, .footer-col4{
+	width:50%;
+	padding:10px;
+	}
+	.footer-col2, .footer-col3{
+	width:50%;
+	padding:10px;
+	}
+	
+}	
